@@ -1,0 +1,181 @@
+/*----------------------------------------------*
+/*----------------------------------------------*
+/*------------------MEDIA QUERIES---------------*
+/*----------------------------------------------*/
+
+@media screen and (min-width: 585px) and (max-width: 780px) {
+  .header__container {
+    width: 150px !important;
+  }
+  .image__container {
+    width: 100%;
+    height: 50px;
+  }
+
+  .title__container {
+    width: 100%;
+    height: 70px;
+    margin-left: 5%;
+  }
+  .navigation__container {
+    width: 600px !important;
+    height: 140px;
+  }
+  .navigation__list a {
+    display: inline;
+  }
+
+  .maincontent__container {
+    width: 640px !important;
+    height: auto;
+    margin-right: 650px;
+    position: relative;
+    margin: 0% 5%;
+  }
+
+  .left__container {
+    width: 90%;
+    margin-right: 5%;
+    font-size: 85%;
+  }
+
+  .right__container {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    margin: 0% 5%;
+    height: 300px;
+  }
+
+  .text__container {
+    width: 640px !important;
+  }
+
+  .text__description {
+    display: block;
+    margin-right: 15%;
+  }
+
+  .services__container {
+    width: 700px !important;
+  }
+
+  .pricing__container {
+    width: 700px !important;
+  }
+
+  .contactus_container {
+    width: 700px !important;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 584px) {
+  .header__container {
+    width: 100px !important;
+    height: 200px;
+    margin-left: 3%;
+  }
+
+  .image__container {
+    width: 100px;
+    height: 70px;
+  }
+
+  .navigation__container {
+    width: 100px !important;
+    height: 200px;
+    margin: 0% 10%;
+  }
+  .navigation__list a {
+    display: block;
+    padding: 12% 0%;
+  }
+
+  .maincontent__container {
+    width: 460px !important;
+    margin-right: 480px;
+    position: relative;
+    height: 600px;
+  }
+  .left__container {
+    width: 90%;
+  }
+  .subheading {
+    font-size: 125%;
+  }
+
+  .right__container {
+    width: 95%;
+    position: absolute;
+    top: 45%;
+  }
+
+  .text__container {
+    width: 460px !important;
+  }
+  .text__description {
+    font-size: 125%;
+    margin: 0%;
+    display: block;
+    text-align: center;
+  }
+
+  .services__container {
+    width: 460px !important;
+    margin-top: 0px;
+    margin-right: 480px;
+    margin-bottom: 5%;
+    position: relative;
+  }
+
+  .services__description {
+    width: 100%;
+  }
+
+  .subheading__services--description {
+    font-size: 125%;
+    margin-right: 5%;
+  }
+
+  .servicesimage__container {
+    width: 50% !important;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+
+  .pricing__container {
+    width: 480px;
+    margin-top: 220px;
+  }
+
+  .card__1 {
+    width: 460px !important;
+    margin-bottom: 30px;
+  }
+
+  .form__container {
+    width: 480px !important;
+    margin-right: 480px;
+  }
+
+  .contactus_container {
+    width: 460px !important;
+  }
+
+  .socialmedia__links {
+    padding: 0% 10%;
+  }
+
+  .socialmedia__links a li :last-child {
+    padding-top: 10%;
+  }
+
+  .review__container {
+    margin-right: 480px;
+  }
+
+  .review__1 {
+    width: 460px !important;
+  }
+}
